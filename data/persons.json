@@ -1,7 +1,9 @@
-[
-    { "firstname": "Zbigniew", "surname": "Stonoga" },
-    { "firstname": "Jan", "surname": "Matejko" },
-    { "firstname": "Jarosław", "surname": "Kaczyński" },
-    { "firstname": "Donald", "surname": "Tusk" },
-    { "firstname": "Osama", "surname": "Bin Laden" }
-]
+{
+    "data": [
+        { "firstname": "Zbigniew", "surname": "Stonoga" },
+        { "firstname": "Jan", "surname": "Matejko" },
+        { "firstname": "Jarosław", "surname": "Kaczyński" },
+        { "firstname": "Donald", "surname": "Tusk" },
+        { "firstname": "Osama", "surname": "Bin Laden" }
+    ]
+}
