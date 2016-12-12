@@ -17,11 +17,12 @@ import { PipeExampleModule } from './pipeExample/pipeExample.module';
 import { DirectiveExampleModule } from './directiveExample/directiveExample.module';
 import { HttpExampleModule } from './httpExample/httpExample.module';
 import { LifecycleHooksExampleModule } from './lifecycleHooksExample/lifecycleHooksExample.module';
+import { MyFormsModule } from './forms/forms.module';
 
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-    imports: [ 
+    imports: [
         BrowserModule, 
         TitleModule,
         MenuModule,
@@ -33,6 +34,7 @@ import { AppRoutingModule } from './app-routing.module';
         DirectiveExampleModule,
         HttpExampleModule,
         LifecycleHooksExampleModule,
+        MyFormsModule,
         AppRoutingModule
     ],
     declarations: [ AppComponent ],

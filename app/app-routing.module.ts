@@ -9,6 +9,7 @@ import { PipeExampleComponent } from './pipeExample/pipeExample.component';
 import { DirectiveExampleComponent } from './directiveExample/directiveExample.component';
 import { HttpExampleComponent } from './httpExample/httpExample.component';
 import { LifecycleHooksExampleComponent } from './lifecycleHooksExample/lifecycleHooksExample.component';
+import { FormsComponent } from './forms/forms.component';
 
 const appRoutes: Routes = [
   { path: 'details', component: DetailsContainerComponent },
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
   { path: 'pipe', component: PipeExampleComponent },
   { path: 'directive', component: DirectiveExampleComponent },
   { path: 'http', component: HttpExampleComponent },
-  { path: 'lifecycleHooks', component: LifecycleHooksExampleComponent }
+  { path: 'lifecycleHooks', component: LifecycleHooksExampleComponent },
+  { path: 'forms', component: FormsComponent }
 ];
 
 @NgModule({
