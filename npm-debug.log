@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'tsc:w' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 warn invalid config access=undefined
+5 warn invalid config also=undefined
+6 warn invalid config https-proxy=undefined
+7 warn invalid config Must be a full url with 'http://'
+8 warn invalid config init-author-url=undefined
+9 warn invalid config Must be a full url with 'http://'
+10 warn invalid config only=undefined
+11 warn invalid config proxy=undefined
+12 warn invalid config Must be a full url with 'http://'
+13 verbose stack Error: Cannot find module 'undefined'
+13 verbose stack     at Function.Module._resolveFilename (module.js:337:15)
+13 verbose stack     at Function.Module._load (module.js:287:25)
+13 verbose stack     at Module.require (module.js:366:17)
+13 verbose stack     at require (module.js:385:17)
+13 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:288:9)
+13 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:384:16
+13 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:80:7
+13 verbose stack     at Array.forEach (native)
+13 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:79:13
+13 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+14 verbose cwd D:\a2\angular2-for-crp
+15 error Windows_NT 6.0.6002
+16 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "tsc:w"
+17 error node v5.0.0
+18 error npm  v3.3.6
+19 error code MODULE_NOT_FOUND
+20 error Cannot find module 'undefined'
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]
